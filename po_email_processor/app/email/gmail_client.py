@@ -77,6 +77,10 @@ class GmailEmailProvider(EmailProvider):
         return self._service
 
     # ----------------------------------------------------------- provider
+    def mailbox_address(self) -> str:
+        """The address of the mailbox the stored token grants access to."""
+        return self.service.users().getProfile(userId=self.user_id).execute()["emailAddress"]
+
     def list_new_message_ids(self, limit: int = 50) -> list[str]:
         response = (
             self.service.users().messages().list(userId=self.user_id, q=self.query, maxResults=limit).execute()
@@ -126,12 +130,16 @@ def main() -> None:
 
     parser = argparse.ArgumentParser(description="Gmail provider utilities")
     parser.add_argument("--authorize", action="store_true", help="run the OAuth consent flow")
+    parser.add_argument("--whoami", action="store_true", help="print the connected mailbox address")
     parser.add_argument("--list", action="store_true", help="list matching message ids")
     args = parser.parse_args()
     s = get_settings()
     provider = GmailEmailProvider(s.gmail_credentials_file, s.gmail_token_file, s.gmail_user_id, s.gmail_query)
     if args.authorize:
         provider.authorize_interactively()
+    if args.whoami:
+        print(f"Connected mailbox: {provider.mailbox_address()}")
+        print(f"Search query:      {provider.query}")
     if args.list:
         print("\n".join(provider.list_new_message_ids()))
 
