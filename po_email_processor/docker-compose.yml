@@ -1,0 +1,33 @@
+# Local infrastructure for the demo.
+#   docker compose up -d postgres              # PostgreSQL only (use the Temporal CLI dev server)
+#   docker compose --profile temporal up -d    # PostgreSQL + Temporal dev server in Docker
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: po_user
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-po_password}   # demo default; override via env
+      POSTGRES_DB: po_demo
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./sql/create_test_db.sql:/docker-entrypoint-initdb.d/01_create_test_db.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U po_user -d po_demo"]
+      interval: 5s
+      retries: 10
+
+  temporal:
+    profiles: ["temporal"]
+    image: temporalio/temporal:latest
+    command: ["server", "start-dev", "--ip", "0.0.0.0", "--db-filename", "/data/temporal.db"]
+    ports:
+      - "7233:7233"   # gRPC frontend
+      - "8233:8233"   # Web UI
+    volumes:
+      - temporaldata:/data
+
+volumes:
+  pgdata:
+  temporaldata:

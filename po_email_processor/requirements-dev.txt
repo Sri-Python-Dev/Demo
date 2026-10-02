@@ -1,0 +1,5 @@
+-r requirements.txt
+pytest>=8,<10
+pytest-asyncio>=1.0,<2
+# Used by scripts/generate_sample_data.py to build the sample PO PDFs
+reportlab>=4.2,<6

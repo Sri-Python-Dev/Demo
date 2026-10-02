@@ -1,0 +1,17 @@
+# Local configuration & secrets
+.env
+secrets/
+*.token.json
+
+# Runtime data
+var/
+sample_data/inbox/*.eml
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.ruff_cache/

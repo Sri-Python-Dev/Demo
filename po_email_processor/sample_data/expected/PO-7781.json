@@ -1,0 +1,45 @@
+{
+  "source_pdf": "sample_data/pdfs/northwind_PO-7781.pdf",
+  "document_type": "PURCHASE_ORDER",
+  "purchase_order": {
+    "purchase_order_number": "7781",
+    "supplier_name": "Northwind Traders",
+    "supplier_email": null,
+    "supplier_address": null,
+    "buyer_name": null,
+    "buyer_address": null,
+    "order_date": "2026-02-02",
+    "requested_delivery_date": null,
+    "currency": null,
+    "subtotal": null,
+    "tax": null,
+    "shipping": null,
+    "total_amount": "685.00",
+    "payment_terms": null,
+    "shipping_terms": null,
+    "ship_to_address": null,
+    "bill_to_address": null,
+    "line_items": [
+      {
+        "line_number": 1,
+        "part_number": "NW-1",
+        "part_name": "Cardboard Boxes (Large)",
+        "quantity": "500",
+        "unit_of_measure": null,
+        "unit_price": "1.10",
+        "line_total": "550.00",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 2,
+        "part_number": "NW-2",
+        "part_name": "Packing Tape",
+        "quantity": "60",
+        "unit_of_measure": null,
+        "unit_price": "2.25",
+        "line_total": "135.00",
+        "requested_delivery_date": null
+      }
+    ]
+  }
+}

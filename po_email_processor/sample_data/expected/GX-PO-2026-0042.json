@@ -1,0 +1,305 @@
+{
+  "source_pdf": "sample_data/pdfs/globex_GX-PO-2026-0042.pdf",
+  "document_type": "PURCHASE_ORDER",
+  "purchase_order": {
+    "purchase_order_number": "GX-PO-2026-0042",
+    "supplier_name": "Precision Parts S.r.l.",
+    "supplier_email": "sales@precisionparts.it",
+    "supplier_address": "Via Roma 22, 20121 Milano, Italy",
+    "buyer_name": "Globex GmbH",
+    "buyer_address": "Industriestrasse 14, 70565 Stuttgart, Germany",
+    "order_date": "2026-01-15",
+    "requested_delivery_date": "2026-02-28",
+    "currency": "EUR",
+    "subtotal": "69527.50",
+    "tax": "13210.22",
+    "shipping": "125.00",
+    "total_amount": "82862.72",
+    "payment_terms": "30 days 2% discount, 60 days net",
+    "shipping_terms": "DAP Stuttgart (Incoterms 2020)",
+    "ship_to_address": "Globex GmbH Warehouse 3, Hafenweg 9, 70565 Stuttgart, Germany",
+    "bill_to_address": "Globex GmbH, Finance Dept., Industriestrasse 14, 70565 Stuttgart, Germany",
+    "line_items": [
+      {
+        "line_number": 10,
+        "part_number": "GX-4001",
+        "part_name": "Precision Spacer Type B1",
+        "quantity": "5",
+        "unit_of_measure": "PCS",
+        "unit_price": "13.55",
+        "line_total": "67.75",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 20,
+        "part_number": "GX-4002",
+        "part_name": "Precision Spacer Type C2",
+        "quantity": "10",
+        "unit_of_measure": "PCS",
+        "unit_price": "14.70",
+        "line_total": "147.00",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 30,
+        "part_number": "GX-4003",
+        "part_name": "Precision Spacer Type D3",
+        "quantity": "15",
+        "unit_of_measure": "PCS",
+        "unit_price": "15.85",
+        "line_total": "237.75",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 40,
+        "part_number": "GX-4004",
+        "part_name": "Precision Spacer Type E4",
+        "quantity": "20",
+        "unit_of_measure": "PCS",
+        "unit_price": "17.00",
+        "line_total": "340.00",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 50,
+        "part_number": "GX-4005",
+        "part_name": "Precision Spacer Type F5",
+        "quantity": "25",
+        "unit_of_measure": "PCS",
+        "unit_price": "18.15",
+        "line_total": "453.75",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 60,
+        "part_number": "GX-4006",
+        "part_name": "Precision Spacer Type G6",
+        "quantity": "30",
+        "unit_of_measure": "PCS",
+        "unit_price": "19.30",
+        "line_total": "579.00",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 70,
+        "part_number": "GX-4007",
+        "part_name": "Precision Spacer Type H7",
+        "quantity": "35",
+        "unit_of_measure": "PCS",
+        "unit_price": "20.45",
+        "line_total": "715.75",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 80,
+        "part_number": "GX-4008",
+        "part_name": "Precision Spacer Type I8",
+        "quantity": "40",
+        "unit_of_measure": "PCS",
+        "unit_price": "21.60",
+        "line_total": "864.00",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 90,
+        "part_number": "GX-4009",
+        "part_name": "Precision Spacer Type J9",
+        "quantity": "45",
+        "unit_of_measure": "PCS",
+        "unit_price": "22.75",
+        "line_total": "1023.75",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 100,
+        "part_number": "GX-4010",
+        "part_name": "Precision Spacer Type K10",
+        "quantity": "50",
+        "unit_of_measure": "PCS",
+        "unit_price": "23.90",
+        "line_total": "1195.00",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 110,
+        "part_number": "GX-4011",
+        "part_name": "Precision Spacer Type L11",
+        "quantity": "55",
+        "unit_of_measure": "PCS",
+        "unit_price": "25.05",
+        "line_total": "1377.75",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 120,
+        "part_number": "GX-4012",
+        "part_name": "Precision Spacer Type M12",
+        "quantity": "60",
+        "unit_of_measure": "PCS",
+        "unit_price": "26.20",
+        "line_total": "1572.00",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 130,
+        "part_number": "GX-4013",
+        "part_name": "Precision Spacer Type N13",
+        "quantity": "65",
+        "unit_of_measure": "PCS",
+        "unit_price": "27.35",
+        "line_total": "1777.75",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 140,
+        "part_number": "GX-4014",
+        "part_name": "Precision Spacer Type O14",
+        "quantity": "70",
+        "unit_of_measure": "PCS",
+        "unit_price": "28.50",
+        "line_total": "1995.00",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 150,
+        "part_number": "GX-4015",
+        "part_name": "Precision Spacer Type P15",
+        "quantity": "75",
+        "unit_of_measure": "PCS",
+        "unit_price": "29.65",
+        "line_total": "2223.75",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 160,
+        "part_number": "GX-4016",
+        "part_name": "Precision Spacer Type Q16",
+        "quantity": "80",
+        "unit_of_measure": "PCS",
+        "unit_price": "30.80",
+        "line_total": "2464.00",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 170,
+        "part_number": "GX-4017",
+        "part_name": "Precision Spacer Type R17",
+        "quantity": "85",
+        "unit_of_measure": "PCS",
+        "unit_price": "31.95",
+        "line_total": "2715.75",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 180,
+        "part_number": "GX-4018",
+        "part_name": "Precision Spacer Type S18",
+        "quantity": "90",
+        "unit_of_measure": "PCS",
+        "unit_price": "33.10",
+        "line_total": "2979.00",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 190,
+        "part_number": "GX-4019",
+        "part_name": "Precision Spacer Type T19",
+        "quantity": "95",
+        "unit_of_measure": "PCS",
+        "unit_price": "34.25",
+        "line_total": "3253.75",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 200,
+        "part_number": "GX-4020",
+        "part_name": "Precision Spacer Type U20",
+        "quantity": "100",
+        "unit_of_measure": "PCS",
+        "unit_price": "35.40",
+        "line_total": "3540.00",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 210,
+        "part_number": "GX-4021",
+        "part_name": "Precision Spacer Type V21",
+        "quantity": "105",
+        "unit_of_measure": "PCS",
+        "unit_price": "36.55",
+        "line_total": "3837.75",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 220,
+        "part_number": "GX-4022",
+        "part_name": "Precision Spacer Type W22",
+        "quantity": "110",
+        "unit_of_measure": "PCS",
+        "unit_price": "37.70",
+        "line_total": "4147.00",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 230,
+        "part_number": "GX-4023",
+        "part_name": "Precision Spacer Type X23",
+        "quantity": "115",
+        "unit_of_measure": "PCS",
+        "unit_price": "38.85",
+        "line_total": "4467.75",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 240,
+        "part_number": "GX-4024",
+        "part_name": "Precision Spacer Type Y24",
+        "quantity": "120",
+        "unit_of_measure": "PCS",
+        "unit_price": "40.00",
+        "line_total": "4800.00",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 250,
+        "part_number": "GX-4025",
+        "part_name": "Precision Spacer Type Z25",
+        "quantity": "125",
+        "unit_of_measure": "PCS",
+        "unit_price": "41.15",
+        "line_total": "5143.75",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 260,
+        "part_number": "GX-4026",
+        "part_name": "Precision Spacer Type A26",
+        "quantity": "130",
+        "unit_of_measure": "PCS",
+        "unit_price": "42.30",
+        "line_total": "5499.00",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 270,
+        "part_number": "GX-4027",
+        "part_name": "Precision Spacer Type B27",
+        "quantity": "135",
+        "unit_of_measure": "PCS",
+        "unit_price": "43.45",
+        "line_total": "5865.75",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 280,
+        "part_number": "GX-4028",
+        "part_name": "Precision Spacer Type C28",
+        "quantity": "140",
+        "unit_of_measure": "PCS",
+        "unit_price": "44.60",
+        "line_total": "6244.00",
+        "requested_delivery_date": null
+      }
+    ]
+  }
+}

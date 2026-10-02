@@ -1,0 +1,75 @@
+{
+  "source_pdf": "sample_data/pdfs/acme_PO-100245.pdf",
+  "document_type": "PURCHASE_ORDER",
+  "purchase_order": {
+    "purchase_order_number": "PO-100245",
+    "supplier_name": "ABC Components Ltd.",
+    "supplier_email": "orders@abccomponents.com",
+    "supplier_address": "45 Harbor Road, Cleveland, OH 44114, USA",
+    "buyer_name": "Acme Manufacturing Inc.",
+    "buyer_address": "1200 Industrial Parkway, Columbus, OH 43215, USA",
+    "order_date": "2026-03-15",
+    "requested_delivery_date": "2026-04-10",
+    "currency": "USD",
+    "subtotal": "14650.00",
+    "tax": "1062.12",
+    "shipping": "350.00",
+    "total_amount": "16062.12",
+    "payment_terms": "Net 30",
+    "shipping_terms": "FOB Destination",
+    "ship_to_address": "Acme Manufacturing - Plant 2, 88 Factory Lane, Dayton, OH 45402, USA",
+    "bill_to_address": "Acme Manufacturing Inc., Accounts Payable, 1200 Industrial Parkway, Columbus, OH 43215, USA",
+    "line_items": [
+      {
+        "line_number": 1,
+        "part_number": "ABC-123",
+        "part_name": "Bearing Assembly",
+        "quantity": "100",
+        "unit_of_measure": "EA",
+        "unit_price": "25.50",
+        "line_total": "2550.00",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 2,
+        "part_number": "ABC-456",
+        "part_name": "Hydraulic Pump Seal Kit",
+        "quantity": "40",
+        "unit_of_measure": "EA",
+        "unit_price": "88.75",
+        "line_total": "3550.00",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 3,
+        "part_number": "XYZ-789",
+        "part_name": "Stainless Steel Bolt M8x40",
+        "quantity": "2000",
+        "unit_of_measure": "EA",
+        "unit_price": "0.42",
+        "line_total": "840.00",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 4,
+        "part_number": "GSK-220",
+        "part_name": "Gasket Sheet 1mm Neoprene",
+        "quantity": "25",
+        "unit_of_measure": "M",
+        "unit_price": "31.20",
+        "line_total": "780.00",
+        "requested_delivery_date": null
+      },
+      {
+        "line_number": 5,
+        "part_number": "MTR-010",
+        "part_name": "Servo Motor 750W",
+        "quantity": "6",
+        "unit_of_measure": "EA",
+        "unit_price": "1155.00",
+        "line_total": "6930.00",
+        "requested_delivery_date": null
+      }
+    ]
+  }
+}
