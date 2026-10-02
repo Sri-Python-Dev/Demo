@@ -1,6 +1,8 @@
 # Local configuration & secrets
 .env
-secrets/
+secrets/*
+!secrets/.gitkeep
+!secrets/README.md
 *.token.json
 
 # Runtime data
